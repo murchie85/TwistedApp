@@ -16,6 +16,10 @@ public class MainJoke extends AppCompatActivity {
         mjokeView = (TextView) findViewById(R.id.jokeView);
 
 
+
+
+
+
         String[] jokeArray = {
                 "What's the only part of a Muslim to have had a wash?\n" +
                         "\n" +
@@ -33,6 +37,7 @@ public class MainJoke extends AppCompatActivity {
                         "You don't see jews dressed as nazis."
 
         };
+
 
         for (String dummyfield : jokeArray) {
             mjokeView.append(dummyfield + "\n\n\n");
